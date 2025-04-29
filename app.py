@@ -6,5 +6,5 @@ name = st.text_input("Write here")
 answer = "1234"
 if name == answer:
     st.success(f"Перевірка успішно пройдена")
-elif:
-    st.success(f"Перевірка не пройдена")
+else:
+    print(f"Перевірка не пройдена")
