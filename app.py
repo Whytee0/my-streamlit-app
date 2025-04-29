@@ -7,4 +7,4 @@ answer = "1234"
 if name == answer:
     st.success(f"Перевірка успішно пройдена")
 else:
-    print(f"Перевірка не пройдена")
+    st.print(f"Перевірка не пройдена")
