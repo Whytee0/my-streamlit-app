@@ -1,7 +1,7 @@
 ﻿import streamlit as st
 
 st.markdown(
-    "<h1 style='text-align: center; color: white;'>Streamlit додатокк</h1>",
+    "<h1 style='text-align: center; color: white;'>Streamlit додаток</h1>",
     unsafe_allow_html=True
 )
 st.write("Для перевірки напишіть '1234'")
