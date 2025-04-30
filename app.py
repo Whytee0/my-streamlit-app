@@ -1,6 +1,9 @@
 ﻿import streamlit as st
 
-st.title("Streamlit-додаток" class = 'middle')
+st.markdown(
+    "<h1 style='text-align: center; color: black;'>Streamlit додатокк</h1>",
+    unsafe_allow_html=True
+)
 st.write("Для перевірки напишіть '1234'")
 name = st.text_input("Введіть відповідь")
 answer = "1234"
