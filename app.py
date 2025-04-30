@@ -1,6 +1,6 @@
 ﻿import streamlit as st
 
-st.title("Streamlit-додаток")
+st.title("Streamlit-додаток" class = 'middle')
 st.write("Для перевірки напишіть '1234'")
 name = st.text_input("Введіть відповідь")
 answer = "1234"
